@@ -1,9 +1,37 @@
 # Saaed Mobile APP - Optimized Test Cases
 
 ## Overview
-This repository contains optimized and deduplicated test cases for the Saaed Mobile APP.
+This repository contains optimized and deduplicated test cases for the Saaed Mobile APP, including a dedicated smoke test suite for critical functionality validation.
 
 ## Files
+
+### 🔥 Smoke Test Suite
+
+#### 1. **Smoke_Test_Cases.xlsx** (Critical Tests)
+- **Format:** Excel (.xlsx)
+- **Total Test Cases:** 20 critical smoke tests
+- **Columns:**
+  - TC ID (SMOKE_TC_001 to SMOKE_TC_020)
+  - Test Case Description
+  - Test Case Steps
+  - Expected Result
+- **Features:**
+  - Red header row (indicates smoke tests)
+  - Frozen header row
+  - Auto-wrapped text
+  - Optimized for quick execution
+- **Execution Time:** 60-90 minutes
+- **Purpose:** Verify critical functionality before detailed testing
+
+#### 2. **smoke_test_cases.csv**
+- CSV version of smoke tests
+- Can be opened in Excel or any spreadsheet application
+
+#### 3. **smoke_test_cases.md**
+- Markdown version with detailed smoke test documentation
+- Includes execution recommendations and coverage analysis
+
+### 📋 Full Test Suite
 
 ### 1. **Optimized_Test_Cases.xlsx** (Primary Output)
 - **Format:** Excel (.xlsx)
@@ -61,11 +89,36 @@ This repository contains optimized and deduplicated test cases for the Saaed Mob
 ✅ Clear categorization for easy navigation  
 ✅ Preserved all unique test scenarios
 
+## Smoke Test Coverage
+
+The smoke test suite covers:
+- ✅ **Installation & Launch:** 1 test
+- ✅ **Authentication:** 4 tests (register, login, UAE PASS, validation)
+- ✅ **Core Functionality:** 4 tests (accident reporting, injury handling)
+- ✅ **Accident Inquiry:** 4 tests (search, download, validation)
+- ✅ **Services & Navigation:** 4 tests (statistics, requests, E-services, SAS)
+- ✅ **Profile & Settings:** 2 tests (view profile, language change)
+- ✅ **Session Management:** 1 test (logout)
+
 ## How to Use
+
+### For Smoke Testing (Quick Validation)
+1. Open **Smoke_Test_Cases.xlsx**
+2. Execute all 20 tests in sequence (60-90 minutes)
+3. Run before each release or after critical changes
+4. All tests must pass before proceeding to full test suite
+
+### For Full Testing (Comprehensive)
 1. Open **Optimized_Test_Cases.xlsx** in Microsoft Excel, Google Sheets, or any spreadsheet application
 2. Use filters on the header row to find specific test cases
 3. Each test case has a unique ID (TC_001 to TC_099) for easy reference
 4. Steps and expected results are clearly formatted for test execution
+
+## Recommended Testing Strategy
+1. **Run Smoke Tests First:** Execute all 20 smoke tests to validate critical functionality
+2. **If Smoke Tests Pass:** Proceed with full test suite (99 tests)
+3. **If Smoke Tests Fail:** Fix critical issues before continuing detailed testing
+4. **Automation:** Consider automating smoke tests for CI/CD pipeline
 
 ---
 
