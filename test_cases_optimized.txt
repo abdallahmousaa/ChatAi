@@ -1,0 +1,865 @@
+TC_001 Verify a user will be able to register to Saaed Mobile APP
+1-Open Saaed APP
+2-Click on Register
+3-Fill all the mandatory data
+The user will register successfully
+
+TC_002 Verify a user will be able to report an accident as anonymous user
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Fill all the mandatory data
+The report traffic accident will be created successfully
+
+TC_003 Verify a user will be able to report an accident as a logged in user
+1-Open Saaed APP and log in
+2-Click on Report Traffic Accident
+3-Fill all the mandatory data
+The report traffic accident will be created successfully
+
+TC_004 Verify that a user can inquiry about an accident report from "Accident Report Number" field anonymously
+1-Open Saaed APP
+2-Enter an accident report number in the field below the welcome message
+The user will view the report current status
+
+TC_005 Verify that a logged in user can inquiry about an accident report from "Accident Report Number" field
+1-Open Saaed APP and log in
+2-Enter an accident report number in the field below the welcome message
+The user will view the report current status
+
+TC_006 Verify a user can request any Saaed E-service successfully
+1-Open Saaed APP and log in
+2-Click on Saaed E-services
+3-Request any Service
+The service will be requested successfully
+
+TC_007 Verify a user can request an SAS service successfully
+1-Open Saaed APP and log in
+2-Click on SAS
+3-Request any Service
+The service will be requested successfully
+
+TC_008 Verify the user can view all his requests from "My Requests" section
+1-Open Saaed APP and log in
+2-Click on Services
+3-Click on My Requests
+The user will view all the requests he made
+
+TC_009 Verify the user can inquiry about any accident report from Services section-Report Inquiry
+1-Open Saaed APP and log in
+2-Click on Services
+3-Click on Report Inquiry
+4-Add a report number
+The user will view all the report's status successfully
+
+TC_010 Verify a user can request any Saaed E-service successfully from Services section-Saaed E-Services
+1-Open Saaed APP and log in
+2-Click on Services
+3-Click on Saaed E-Services
+4-Request any service
+The service will be requested successfully
+
+TC_011 Verify a user can request any Saaed E-service successfully from Services section-Saaed Auto Services
+1-Open Saaed APP and log in
+2-Click on Services
+3-Click on Saaed Auto Services
+4-Request any service
+The service will be requested successfully
+
+TC_012 Verify user will view the contacts info successfully
+1-Open Saaed APP and log in
+2-Click on Contact Us
+The user will view "Call Us number, the website, the location of the HQ"
+
+TC_013 Verify user will redirected to Saaed page on Instagram successfully
+1-Open Saaed APP and log in
+2-Click on Contact Us
+3-Click on Instagram Icon
+The user will redirected to Saaed page on Instagram
+
+TC_014 Verify user will redirected to Saaed page on Facebook successfully
+1-Open Saaed APP and log in
+2-Click on Contact Us
+3-Click on Facebook Icon
+The user will redirected to Saaed page on Facebook
+
+TC_015 Verify user will redirected to Saaed page on X successfully
+1-Open Saaed APP and log in
+2-Click on Contact Us
+3-Click on X Icon
+The user will redirected to Saaed page on X
+
+TC_016 Verify user will redirected to Saaed page on Youtube successfully
+1-Open Saaed APP and log in
+2-Click on Contact Us
+3-Click on Youtube Icon
+The user will redirected to Saaed page on Youtube
+
+TC_017 Verify user will redirected to Saaed page on Linkedin successfully
+1-Open Saaed APP and log in
+2-Click on Contact Us
+3-Click on Linkedin Icon
+The user will redirected to Saaed page on Linkedin
+
+TC_018 Verify a user can Add his TCN successfully
+1-Open Saaed APP and log in
+2-Click on Profile
+3-Click on Edit Icon in TCN field
+4-Click Save
+The TCN will be added successfully
+
+TC_019 Verify the user can view his current screen in the selected language
+1-Open Saaed APP and log in
+2-Change the language to Arabic
+3-Click on Profile
+4-Change the Language
+In both steps of changing the language it will be changed successfully
+
+TC_020 Verify the user will view steps of reporting a traffic accident in the selected language
+1-Open Saaed APP and log in
+2-Change the language to Arabic
+3-Click on "الإبلاغ عن حادث بسيط"
+All steps of creating a traffic accident report will be in Arabic language
+
+TC_021 Verify the user will view the E-Service web in the selected language
+1-Open Saaed APP and log in
+2-Change the language to Arabic
+3-Click on "خدمات ساعد الإلكترونية"
+The E-services website will be opened in Arabic language
+
+TC_022 Verify the user will view the SAS description & steps of creating any of the SAS service in the selected language
+1-Open Saaed APP and log in
+2-Change the language to Arabic
+3-Click on "ساعد أوتو سيرفيز"
+The SAS description & steps will be opened in Arabic language
+
+TC_023 Verify that all notifications sent to the user after creating the traffic accident report will be the same language he selected from the APP
+1-Open Saaed APP and log in
+2-Change the language to Arabic
+3-Click on "الإبلاغ عن حادث بسيط"
+4-Request a traffic accident report
+All messaged the user will get will be in the Arabic language
+
+TC_024 Validate the user not having What's APP will get All notifications through SMS
+1-Open Saaed APP and login
+2-Request an E-service
+3-Check as a user the notification sent to him
+The message will be sent through SMS
+
+TC_025 Verify a user try to request a traffic accident report with a mobile number not Emirate's number
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Add a mobile number not Emirate's one
+The system will display an error message
+
+TC_026 Verify a user can't attach any images exceeds the limitations as mentioned from the business
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Upload an images exceeds the limitation
+An error message will be displayed
+
+TC_027 Verify the user will redirect to a page with 999 number when he marked that there is injury
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Answer with "yes" for the question "هل يوجد إصابات؟"
+The user will redirected to a page with 999 number and asking him to call it
+
+TC_028 Verify the user will redirect to a page with a number to call when he confirmed there is "أضرار ممتلكات تتبع الدولة"
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Answer with "yes" for the question "أضرار ممتلكات تتبع الدولة؟"
+The user will redirected to a page with a message that there is a Saaed Patrol on its way to him
+
+TC_029 Verify the user will redirect to a page that there is a patrol on its way to him if he can't move his car
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Answer with "No" for the question "هل يمكنك تحريك السيارة؟"
+The user will redirected to a page with a message that there is a Saaed Patrol on its way to him
+
+TC_030 Verify the user can report a traffic accident "حادث بين مركبات"
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Choose the type of accident "حادث بين مركبات" then fill all the mandatory data
+The request will be made successfully with an inquiry ID and will get a notification that this request ID marked as "طلب جديد"
+
+TC_031 Verify the user can report a traffic accident "حادث ضد مجهول"
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Choose the type of accident "حادث ضد مجهول" then fill all the mandatory data
+The request will be made successfully with an inquiry ID
+
+TC_032 Verify the user can report a traffic accident "حادث صدم جسم ثابت"
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Choose the type of accident "حادث صدم جسم ثابت" then fill all the mandatory data
+The request will be made successfully with an inquiry ID
+
+TC_033 Verify the user can report a traffic accident "حادث صدم وفرار"
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Choose the type of accident "حادث صدم وفرار" then fill all the mandatory data
+The request will be made successfully with an inquiry ID
+
+TC_034 Verify a user can share the Traffic accident request with another user
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Choose the type of accident "حادث بين مركبات"
+4-Active the radion button "مشاركة الطلب مع الطرف الآخر
+5-Click Save
+1-The request will generated successfully with a message includes the Request Number
+2-The other user will open Saaed APP then use the same request number to "إستكمال بيانات الحادث"
+
+TC_035 Verify that the user will get his request's status updated once OR user opens his request and make an incident
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Choose the type of accident "حادث بين مركبات" then fill all the mandatory data then Save
+4-As a Call Taker Open the Request
+5-Make an incident as OR
+1-Regarding step 4, the status will be changed to "قيد التنفيذ"
+2-Regarding step 5, the status will be changed to "مغلق"
+
+TC_036 Verify that user can't request another traffic accident report unless the last report he asked for become closed
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Choose the type of accident "حادث بين مركبات" then fill all the mandatory data then Save
+4-Try to request another traffic accident report
+1-The user will not be able to request another traffic accident report and the button in the homescreen will change to "Continue Your Request"
+
+TC_037 Verify that the user can add a new Incident "مركبة واحدة" through the Mobile App
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Choose the type of accident "مركبة واحدة" then fill all the mandatory data
+The new Incident has been created successfully and will be added to the OR system successfully
+
+TC_038 Verify that the user can add a new Incident "اكثر من مركبة" through the Mobile App
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Choose the type of accident "اكثر من مركبة" then fill all the mandatory data
+The new Incident has been created successfully and will be added to the OR system successfully
+
+TC_039 Verify that the "Sign in with UAE PASS" is available
+1-Open Saaed APP
+2-Click on Login
+3-Click on "Sign in with UAE PASS"
+The Sign in with UAE PASS option is available and functional
+
+TC_040 Verify that the user can't able to login with empty data
+1-Open Saaed APP
+2-Click on Login
+3-Click on Login button without entering any credentials
+The system will display a validation message
+
+TC_041 Verify that the user can't able to login with invalid credentials
+1-Open Saaed APP
+2-Click on Login
+3-Enter invalid email/username and password
+4-Click on Login button
+A validation message for wrong credentials will be displayed
+
+TC_042 Verify that the user can login with valid email address
+1-Open Saaed APP
+2-Click on Login
+3-Enter valid email address and password
+4-Click on Login button
+The user is logged in successfully
+
+TC_043 Verify that the user can login with valid Mobile Number
+1-Open Saaed APP
+2-Click on Login
+3-Enter valid mobile number and password
+4-Click on Login button
+The user is logged in successfully
+
+TC_044 Verify that the user can login with valid Emirates ID
+1-Open Saaed APP
+2-Click on Login
+3-Enter valid Emirates ID and password
+4-Click on Login button
+The user is logged in successfully
+
+TC_045 Verify that the user can back to login screen by "Back" icon
+1-Open Saaed APP
+2-Click on Login
+3-Click on Back icon
+The user will be redirected back to the login screen
+
+TC_046 Verify that the user can back to login screen by "Cancel Request" Button
+1-Open Saaed APP
+2-Click on Login
+3-Click on Cancel Request Button
+The user will be redirected back to the login screen
+
+TC_047 Verify that the user can't login when the UAEPASS user app enters incorrect verify number
+1-Open Saaed APP
+2-Click on Login with UAE PASS
+3-Enter incorrect verification number
+The system will display an error message
+
+TC_048 Verify that the new UAE PASS User can download the Payment Receipt/Invoice
+1-Open Saaed APP and login with UAE PASS
+2-Navigate to the request/report that has payment receipt
+3-Click on Download Payment Receipt/Invoice
+The Payment Receipt/Invoice will be downloaded successfully
+
+TC_049 Verify that the new UAE PASS User can download the Report
+1-Open Saaed APP and login with UAE PASS
+2-Navigate to the report
+3-Click on Download Report
+The Report will be downloaded successfully
+
+TC_050 Verify that the new UAE PASS user Can create a new report request
+1-Open Saaed APP and login with UAE PASS
+2-Click on Report Traffic Accident
+3-Fill all the mandatory data
+The new report request will be created successfully
+
+TC_051 Verify that the new UAE PASS User view his requests
+1-Open Saaed APP and login with UAE PASS
+2-Click on Services
+3-Click on My Requests
+The user will view all his requests
+
+TC_052 Verify that the new UAE PASS User can view his reports
+1-Open Saaed APP and login with UAE PASS
+2-Navigate to Reports section
+The user will view all his reports
+
+TC_053 Verify that the new UAE PASS user can logout
+1-Open Saaed APP and login with UAE PASS
+2-Click on Profile
+3-Click on Logout Button
+The user is able to logout successfully
+
+TC_054 Verify that the SMS is sent with the new content when reporting an incident via the Mobile App
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Fill all the mandatory data and submit
+4-Check the SMS received
+The SMS will be sent with the new content format
+
+TC_055 Verify that the SMS is sent with the new content when clicking on "Send" button for report in the search an incident page
+1-Open Saaed APP
+2-Search for an incident report
+3-Click on "Send" button
+4-Check the SMS received
+The SMS will be sent with the new content format
+
+TC_056 Verify that the SMS Provided link is shorter and redirect the user to page to pay while the user's role in the incident is "متسبب"
+1-Open Saaed APP
+2-Report or search for an incident where user role is "متسبب"
+3-Check the SMS link received
+4-Click on the link
+The link provided via SMS is shorter and redirects the user to the payment page
+
+TC_057 Verify that the link provided via SMS is shorter and redirect the user to the page to view the report while the user's role in the incident is "متضرر"
+1-Open Saaed APP
+2-Report or search for an incident where user role is "متضرر"
+3-Check the SMS link received
+4-Click on the link
+The link provided via SMS is shorter and redirects the user to the page to view the report
+
+TC_058 Check the system behavior if the user clicks on "Tracking URL" for SAAED URLs
+1-Open Saaed APP
+2-Click on a SAAED Tracking URL
+The system will track and display the appropriate information
+
+TC_059 Verify that the E-seal appears in the downloaded accident report while the user inquiry about accident report through the mobile app
+Preconditions: 1-The test environment must be setup 2-Reported already added
+Steps: 1-Open the Mobile App 2-Insert the report number in "Accident Report name" field 3-Enter the Code number 4-Check the Accident Report 5-Download the Report
+The E-seal appears in the downloaded accident report
+
+TC_060 Verify that the mobile app is installed successfully
+Steps: 1-Open the App Store 2-Install the App
+The mobile app is installed successfully
+
+TC_061 Verify that the user is able to logged in successfully
+Steps: 1-Open the App Store 2-Install the App 3-Open the App 4-Login with valid credentials
+The user is able to logged in successfully
+
+TC_062 Verify that the New banner design looks fine and everything is aligned correctly according to approved design in Arabic Interface
+Steps: 1-Open the App Store 2-Install the App 3-Open the App 4-Login with valid credentials 5-Change language to Arabic 6-Check the new banner design
+The New banner design looks fine and everything is aligned correctly according to approved design in Arabic Interface
+
+TC_063 Verify that the New banner design looks fine and everything is aligned correctly according to approved design in English Interface
+Steps: 1-Open the App Store 2-Install the App 3-Open the App 4-Login with valid credentials 5-Change language to English 6-Check the new banner design
+The New banner design looks fine and everything is aligned correctly according to approved design in English Interface
+
+TC_064 Verify that the New icon design looks fine and everything is aligned correctly according to approved design in Arabic Interface
+Steps: 1-Open the App Store 2-Install the App 3-Open the App 4-Login with valid credentials 5-Change language to Arabic 6-Check the new icon design
+The New icon design looks fine and everything is aligned correctly according to approved design in Arabic Interface
+
+TC_065 Verify that the New icon design looks fine and everything is aligned correctly according to approved design in English Interface
+Steps: 1-Open the App Store 2-Install the App 3-Open the App 4-Login with valid credentials 5-Change language to English 6-Check the new icon design
+The New icon design looks fine and everything is aligned correctly according to approved design in English Interface
+
+TC_066 Check the system behavior if the user clicks on new icon
+Steps: 1-Open the App Store 2-Install the App 3-Open the App 4-Login with valid credentials 5-Click on the new icon
+The user will be redirected to Saaed Auto Services
+
+TC_067 Check the system behavior if the user clicks on new banner
+Steps: 1-Open the App Store 2-Install the App 3-Open the App 4-Login with valid credentials 5-Click on the new banner
+The user will be redirected to Saaed Auto Services
+
+TC_068 Check the system behavior if the user clicks on new icon inside the services screen
+Steps: 1-Open the App Store 2-Install the App 3-Open the App 4-Login with valid credentials 5-Click on "Services" at the navigation bar 6-Click on the new icon
+The user will be redirected to Saaed Auto Services
+
+TC_069 Verify that the user is able to install the app successfully
+1-Open the App Store 2-Install the app
+The user is able to install the app successfully
+
+TC_070 Verify that the user is able to open the installed app successfully
+1-Open the App Store 2-Install the app 3-Open the App
+The user is able to open the installed app successfully
+
+TC_071 Verify that the user is able to Sign up with valid credentials
+1-Open the App Store 2-Install the app 3-Open the App 4-Click on "Login" at the navigation bar 5-Click on "Register" Button 6-Fill all mandatory fields with valid credentials 7-Click on "Register" Button 8-Enter the Otp Code 9-Click on "Verify" Button
+The user is able to Sign up with valid credentials
+
+TC_072 Verify that the user is able to login with valid data
+1-Open the App Store 2-Install the app 3-Open the App 4-Click on "Login" at the navigation bar 5-Enter the Email and Password 6-Click on "Login" Button
+The user is logged in successfully
+
+TC_073 Verify that the user is able to login with UAE PASS
+1-Open the App Store 2-Install the app 3-Open the App 4-Click on "Login" at the navigation bar 5-Click on "Login with UAE PASS" Button 6-Enter the Phone Number/ Email/ Emirates ID 7-Click on "Login" Button
+The user is able to login with UAE PASS successfully
+
+TC_074 Verify that the user is able to inquiry about Report
+1-Open the App Store 2-Install the app 3-Open the App 4-Enter an accident report number 5-Click on "Inquiry" Icon 6-Enter the code of report
+The user is able to inquiry about Report successfully
+
+TC_075 Verify that the user is able to download the report
+1-Open the App Store 2-Install the app 3-Open the App 4-Enter an accident report number 5-Click on "Inquiry" Icon 6-Enter the code of report 7-Click on "View" Button to view the report 8-Download the Report
+The user is able to download the report
+
+TC_076 Verify that the E-seal appears in the downloaded accident report while the user inquiry about accident report through the mobile app
+1-Open the App Store 2-Install the app 3-Open the App 4-Enter an accident report number 5-Click on "Inquiry" Icon 6-Enter the code of report 7-Download the Report 8-Check the E-seal
+The E-seal appears in the downloaded accident report
+
+TC_077 Verify that the anonymous user is able to report an incident
+1-Open the App Store 2-Install the app 3-Open the App 4-Click on "Report Traffic Accident" Banner 5-Insert all mandatory fields with valid data
+The anonymous user is able to Report an incident
+
+TC_078 Verify that the logged user is able to report an incident
+1-Open the App Store 2-Install the app 3-Open the App 4-Login with valid data 5-Click on "Report Traffic Accident" Banner 6-Insert all mandatory fields with valid data
+The logged user is able to report an incident
+
+TC_079 Check the system behavior if the anonymous user clicks "Saeed Auto Services" Banner
+1-Open the App Store 2-Install the app 3-Open the App 4-Click on "Saaed Auto Services" Banner
+The system will be redirect the user to Saeed Auto services page
+
+TC_080 Check the system behavior if the logged user clicks "Saeed Auto Services" Banner
+1-Open the App Store 2-Install the app 3-Open the App 4-Login with valid data 5-Click on "Saaed Auto Services" Banner
+The system will be redirect the user to Saeed Auto services page
+
+TC_081 Verify that the user is able to submit Auto Services request
+1-Open the App Store 2-Install the app 3-Open the App 4-Login with valid data 5-Click on "Saaed Auto Services" Banner 6-Fill all fields with valid data 7-Click on "Submit"
+The user is able to submit auto services requests
+
+TC_082 Check the system behavior if the anonymous user clicks "Saeed E-services" Banner
+1-Open the App Store 2-Install the app 3-Open the App 4-Click on "Saeed E-services" Banner
+The system will be redirect the user to Saeed E-services page
+
+TC_083 Check the system behavior if the logged user clicks "Saeed E-services" Banner
+1-Open the App Store 2-Install the app 3-Open the App 4-Login with valid data 5-Click on "Saeed E-services" Banner
+The system will be redirect the user to Saeed E-services page
+
+TC_084 Verify that the user is able to submit E-services Request
+1-Open the App Store 2-Install the app 3-Open the App 4-Login with valid data 5-Click on "Saeed E-services" Banner 6-Select a request 7-Fill all fields with valid data 8-Click on "Submit" Button
+The user is able to submit E-services Request
+
+TC_085 Verify that the user is able to inquiry about E-service request
+1-Open the App Store 2-Install the app 3-Open the App 4-Login with valid data 5-Click on "Saeed E-services" Banner 6-Insert any E-service request 7-Click on "Check" Button
+The user is able to inquiry about E-service request
+
+TC_086 Verify that the user is able to change the language interface to Arabic
+1-Open the App Store 2-Install the app 3-Open the App 4-Click on "Change Language" icon 5-Select the "العربية"
+The language is changed successfully
+
+TC_087 Verify that the user is able to change the language interface to English
+1-Open the App Store 2-Install the app 3-Open the App 4-Click on "Change Language" icon 5-Select the "العربية" 6-Click on "Change Language" Button 7-Change the language to English
+The language is changed successfully
+
+TC_088 Check the system behavior if the user clicks "Claim Management" Button
+1-Open the App Store 2-Install the app 3-Open the App 4-Click on "Login" at the navigation bar 5-Login with valid credentials 6-Click on "Claim Management" Button
+The page is open successfully
+
+TC_089 Check the system behavior if the user clicks "Services" Button
+1-Open the App Store 2-Install the app 3-Open the App 4-Click on "Login" at the navigation bar 5-Login with valid credentials 6-Click on "Services Button
+The page is open successfully
+
+TC_090 Verify that the user is able to view the profile details
+1-Open the App Store 2-Install the app 3-Open the App 4-Click on "Login" at the navigation bar 5-Login with valid credentials 6-Click on "Profile" icon
+The user is able to view the profile details
+
+TC_091 Verify that the user can navigate to the contact us page
+1-Open the App Store 2-Install the app 3-Open the App 4-Click on "Login" at the navigation bar 5-Login with valid credentials 6-Click on "Contact Us" at the navigation bar
+The user can navigate to the contact us page
+
+TC_092 Verify that the user is able to logout
+1-Open the App Store 2-Install the app 3-Open the App 4-Click on "Login" at the navigation bar 5-Login with valid credentials 6-Click on "Profile" at the navigation bar 7-Click on "Logout" Button
+The user is able to logout
+
+TC_093 Check the system behavior if the user click "Profile" in home screen
+prerequisites 1-User is connected to a device and has a stable data connection 2-User already registered with UAE Pass before
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "User name at the header"
+The system will redirect the user into the Profile screen successfully
+
+TC_094 Verify that the search bar is prominently displayed on the homepage
+prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Check if the search bar is prominently displayed on the homepage
+The search bar is prominently displayed on the homepage
+
+TC_095 Check the system behavior if the user Enter an empty search query
+prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Leave the search input field without any data 4-Click on "Search" icon
+The system will display a Validation message saying: "Enter accident report number/ يرجى ادخال رقم تقرير الحادث"
+
+TC_096 Check the system behavior if the user searches for an accident report number that doesn't exist in the database
+prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Enter a non-existent accident report number 4-Click on "Search" icon
+The system will display message "Report Number is not Valid"
+
+TC_097 Check the system behavior if the user searches for an accident report number that exist in the database
+prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-The user Searches for an accident report number exist 4-Click on "Search" icon
+The System will display Search results relevant to search keyword
+
+TC_098 Check the system behavior if the user click on "SAAED E-service" Icon
+prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "SAAED E-service" Icon
+The system wil redirect the user into Saaed Traffic E-services
+
+TC_099 Check the system behavior if the user click on "Popular Services- Claim Management" icon
+prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "Popular Services- Claim Management" icon
+The system wil redirect the user into Claim Management Page/ If the user doesn't login the system will redirect the user into login form
+
+TC_100 Check the system behavior if the user click on "Popular Services- Track SAAED Patrol" icon
+prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "Popular Services- Track SAAED Patrol" icon
+The system wil redirect the user into the Track saaed patrol page
+
+TC_101 Check the system behavior if the user click on "Popular Services- Road Assistance" icon
+prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "Popular Services- Road Assistance" icon
+The system wil redirect the user into the Road Assistance Page
+
+TC_102 Check the system behavior if the user click on "Services" from the navigation bar
+Prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "Services" from the navigation bar
+The system wil redirect the user into the Services Page
+
+TC_103 Verify that the user can view the services statistics
+prerequisites 1-User is connected to a device and has a stable data connection 2-User already logged in before
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "Services" from the navigation bar
+The user can view the services statistics
+
+TC_104 Verify that the user can Report an accident
+prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "Services" from the navigation bar 4-Click on "Report an accident" tab 5-Insert all required fields
+The user can Report an accident successfully
+
+TC_105 Verify that the user can view their requests
+prerequisites 1-User is connected to a device and has a stable data connection 2-User already logged in before
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "Services" from the navigation bar 4-Click on "My request" tab
+The user can view their requests successfully
+
+TC_106 Verify that the user can Report an inquiry
+prerequisites 1-User is connected to a device and has a stable data connection 2-User already logged in before
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "Services" from the navigation bar 4-Click on "Report Inquiry" tab
+The user can Report an inquiry Successfully
+
+TC_107 Check the system behavior if the user click on "Contact us" from the navigation bar
+prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "Contact us" from the navigation bar
+The system wil redirect the user into the Contact us Page
+
+TC_108 Verify that all links in contact us screen are work correctly
+prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "Contact us" from the navigation bar 4-Click on "Contact us" link
+The system will redirect the user to screen to input all inquiry details
+
+TC_109 Check the system behavior if the user click on "Profile" from the navigation bar
+prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "Profile" from the navigation bar
+The system wil redirect the user into the Profile Page
+
+TC_110 Verify that the profile info are clear
+prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "Profile" from the navigation bar 4-Check the Profile info
+The profile info are clear
+
+TC_111 Verify that the user can logout
+prerequisites 1-User is connected to a device and has a stable data connection
+Steps 1-Launch the mobile application 2-Click on "Home" from the navigation bar 3-Click on "Profile" from the navigation bar 4-Click on "Logout" icon 5-Click on "Yes" Button
+The user should be logged out and redirected into Home screen as an anonymous user
+
+TC_112 Validate that user can register new account with "Email", "Mobile Number" and "Password"
+1-open the saaed app 2-click skip info 3-click on login icon 4-click on the register button 5-add a valid email and valid mobile number and password 6-click register
+The user can register with a new user correct and add the required fields
+
+TC_113 Validate that user can register by UAE Pass
+1-open the saaed app 2-click skip info 3-click on login icon 4-click on the register button 5-click on register via UAE PASS 6-add the email or phone to contact the UAE pass account
+The user can register with the UAE PASS account successfully
+
+TC_114 Validate that user can login successfully by his credentials
+1-open the saaed app 2-click skip info 3-click on login icon 4-add a valid email and password 5-click on login button
+The user can login successfully
+
+TC_115 Validate that validation message should be displayed if user enter wrong credentials
+1-open the saaed app 2-click skip info 3-click on login icon 4-add an invalid email and password 5-click on login button
+A validation message for wrong credentials will appear
+
+TC_116 Validate that user can search for Accident request from "Services" button in home screen
+1-open the saaed app 2-click skip info 3-click on services 4-search for the request number
+The user can view the accident number in case he has access to it or not
+
+TC_117 Validate that Accident details and status of request should be displayed to user
+1-open the saaed app 2-click skip info 3-click on search by number of the request
+The user can view status of request should be displayed to user
+
+TC_118 Validate that user will be able to search for report number from home screen
+1-open the saaed app 2-click skip info 3-click on search by report number
+The user can view the accident number in case he has access to it or not
+
+TC_119 Validate that user will be able to search for report number from "Services" button in home screen then "Report Inquiry"
+1-open the saaed app 2-click skip info 3-click on services 4-click on report inquiry 5-enter report number
+The user can view status of request should be displayed to user
+
+TC_120 Validate that user will be able to track saaed 360 patrol from "Track saaed Patrol" button from Home screen
+1-open the saaed app 2-click skip info 3-click on track saaed patrol 4-enter the patrol tracking code
+The user can track the patrol successfully
+
+TC_121 Verify that the user can view the main info for the profile
+1-open the saaed app 2-click on my account or "حسابي"
+The user can view the main info for the account (mail - TCN)
+
+TC_122 Verify that the user can edit the TCN from the my account page
+1-open the saaed app 2-click on my account or "حسابي" 3-click on edit action on TCN field
+The user can edit the TCN and enter the new one
+
+TC_123 Validate that user can report an accident
+1-open the saaed app 2-click skip info 3-click on report accident
+The user can report the accident normally
+
+TC_124 Validate that user should enter his mobile number
+1-open the saaed app 2-click skip info 3-click on report accident
+The user must enter the mobile number and verify it before reporting
+
+TC_125 Validate that user can view his location on map
+1-open the saaed app 2-click skip info 3-click on report accident 4-enter his mobile number and verify it click next
+The user can view his location correct in the map
+
+TC_126 Validate that user can choose type of accident while report accident
+1-open the saaed app 2-click skip info 3-click on report accident 4-enter his mobile number and verify it click next
+It appears 3 questions and the user must select them
+
+TC_127 Validate that No. of request should be displayed to user after submit request
+1-open the saaed app 2-click skip info 3-click on report accident 4-enter his mobile number and verify it click next 5-complete the question and add the vehicle details
+The request number is appear correct
+
+TC_128 Validate that client can report accident from "Services" button in home screen
+1-open the saaed app 2-click skip info 3-click on services 4-click on report an unknown accident
+The user can report for the unknown accident normally
+
+TC_129 Validate that in case of UAEpass login isn't installed and login by saaed
+1-open the saaed app 2-click skip info 3-click on login icon 4-click login via the UAE PASS
+The system will navigate the user to enter the UAE PASS email or phone or the Emirate id
+
+TC_130 SOP2 OR SOP3 user Validate that In case of login by SOP1 user account English and Arabic version
+1-open the saaed app 2-click skip info 3-click on login icon 4-click login via the UAE PASS
+Unauthorized message is displayed in saaed
+
+TC_131 SOP2 OR SOP3 user Validate that in case of Happy scenario – Login by sop2 user in uaepass –login in saaed then account should be login and successful page isn't displayed as user exists and login before
+1-open the saaed app 2-click skip info 3-click on login icon 4-click login via the UAE PASS
+The login and successful page isn't displayed as user exists and login before
+
+TC_132 SOP2 OR SOP3 user Validate that In case that login with UAE but user doesn't exist in saaed then account should be connected with uuid
+1-open the saaed app 2-click skip info 3-click on login icon 4-click login via the UAE PASS
+The user is logged in successfully by the uuid only
+
+TC_133 SOP2 OR SOP3 user Validate that In case that Login with uaepass login and user exist in saaed without UUID then account should be connected automatically without asking about login or create account and successful page is displayed
+1-open the saaed app 2-click skip info 3-click on login icon 4-click login via the UAE PASS
+The user can login successfully
+
+TC_134 SOP2 OR SOP3 user Validate that In case of cancel login then message should be displayed successfully In Arabic and English
+1-open the saaed app 2-click skip info 3-click on login icon 4-click login via the UAE PASS 5-click on back button
+The user is navigate to the login page for saaed
+
+TC_135 SOP2 OR SOP3 user Validate that incase that uuid not exist and mobile and email not exist in saaed then login by another username and password -> uuid should be linked automatically
+1-open the saaed app 2-click skip info 3-click on login icon 4-click login via the UAE PASS
+The user can login successfully and the two account is linked correctly
+
+TC_136 SOP2 OR SOP3 user Validate that Login in saaed with authenticated user sop2, logout from saaed then login again then user should be able to login successfully
+1-open the saaed app 2-click skip info 3-click on login icon 4-click login via the UAE PASS SOP1 5-then try to upgrade to SOP2 6-then login again with UAE PASS
+The user can login in saaed app correctly
+
+TC_137 SOP2 OR SOP3 Validate that in case of UUID not exist – email/mobile not exist – has account – login page – login with wrong credentials then invalid login message should be displayed
+1-open the saaed app 2-click skip info 3-click on login icon 4-click login via the UAE PASS is invalid
+An error message will appear
+
+TC_138 Validate that user should be able to create claim management request after create accident report
+1-open the saaed app 2-open the claim management 3-select a request to create a claim management
+The user should be able to create a new claim management normally
+
+TC_139 Validate that page will be redirected to Motori after press "Create Claim"
+1-open the saaed app 2-login 3-open the claim management 4-select a request 5-click on "Create Claim"
+The page will be redirected to Motori
+
+TC_140 Validate that user can't make claim management without login
+1-open the saaed app 2-click on claim management without login
+The system will redirect to login page or display error message
+
+TC_141 Validate that user can create claim management in case of (Insurance type: comprehensive – role in accident: faulty- Accident type: unknown – Company to Validate: white list)
+1-open the saaed app 2-login 3-open claim management 4-select accident with specified criteria 5-create claim management
+The claim management will be created successfully
+
+TC_142 Validate that user can create claim management in case of (Insurance type: comprehensive – role in accident: faulty- Accident type: simple accident – Company to Validate: white list)
+1-open the saaed app 2-login 3-open claim management 4-select accident with specified criteria 5-create claim management
+The claim management will be created successfully
+
+TC_143 Validate that user can't create claim management and validation message should be displayed in case of (Insurance type: comprehensive – role in accident: faulty- Accident type: simple accident – Company to Validate: blacklist)
+1-open the saaed app 2-login 3-open claim management 4-select accident with specified criteria 5-attempt to create claim management
+A validation message will be displayed
+
+TC_144 Validate that user can create claim management in case of (Insurance type: comprehensive – role in accident: non faulty- Accident type: unknown – Company to Validate: white list)
+1-open the saaed app 2-login 3-open claim management 4-select accident with specified criteria 5-create claim management
+The claim management will be created successfully
+
+TC_145 Validate that user can create claim management in case of (Insurance type: comprehensive – role in accident: non faulty- Accident type: simple accident – Company to Validate: white list)
+1-open the saaed app 2-login 3-open claim management 4-select accident with specified criteria 5-create claim management
+The claim management will be created successfully
+
+TC_146 Validate that user can't create claim management and validation message should be displayed in case of (Insurance type: comprehensive – role in accident: non faulty- Accident type: unknown – Company to Validate: blacklist)
+1-open the saaed app 2-login 3-open claim management 4-select accident with specified criteria 5-attempt to create claim management
+A validation message will be displayed
+
+TC_147 Validate that user can't create claim management and validation message should be displayed in case of (Insurance type: comprehensive – role in accident: non faulty- Accident type: Simple Accident – Company to Validate: blacklist)
+1-open the saaed app 2-login 3-open claim management 4-select accident with specified criteria 5-attempt to create claim management
+A validation message will be displayed
+
+TC_148 Validate that accidents shouldn't be displayed in claim management list in case of (Insurance type: TPL – role in accident: faulty- Accident type: Simple Accident – Company to Validate: whitelist)
+1-open the saaed app 2-login 3-open claim management 4-check the list
+The accidents should not be displayed in claim management list
+
+TC_149 Validate that accidents shouldn't be displayed in claim management list in case of (Insurance type: TPL – role in accident: faulty- Accident type: Simple Accident – Company to Validate: blacklist)
+1-open the saaed app 2-login 3-open claim management 4-check the list
+The accidents should not be displayed in claim management list
+
+TC_150 Validate that user can't create claim management and validation message should be displayed in case of (Insurance type: TPL – role in accident: non faulty- Accident type: Simple Accident – Company to Validate: blacklist)
+1-open the saaed app 2-login 3-open claim management 4-select accident with specified criteria 5-attempt to create claim management
+A validation message will be displayed
+
+TC_151 Validate that user can create claim management in case of (Insurance type: TPL – role in accident: non faulty- Accident type: Simple Accident – Company to Validate: white list)
+1-open the saaed app 2-login 3-open claim management 4-select accident with specified criteria 5-create claim management
+The claim management will be created successfully
+
+TC_152 Validate that accidents shouldn't be displayed in claim management list in case of (Insurance type: TPL – role in accident: non faulty- Accident type: Unknown – Company to Validate: Whitelist)
+1-open the saaed app 2-login 3-open claim management 4-check the list
+The accidents should not be displayed in claim management list
+
+TC_153 Validate that accidents shouldn't be displayed in claim management list in case of (Insurance type: TPL – role in accident: non faulty- Accident type: Unknown – Company to Validate: Blacklist)
+1-open the saaed app 2-login 3-open claim management 4-check the list
+The accidents should not be displayed in claim management list
+
+TC_154 Validate that claim management request status should be displayed in claim management list
+1-open the saaed app 2-login 3-open claim management
+The claim management request status should be displayed in the list
+
+TC_155 Validate that claim management request should be displayed in motori staging related to insurance company
+1-open the saaed app 2-login 3-create claim management request 4-check motori staging
+The claim management request should be displayed in motori staging related to insurance company
+
+TC_156 Verify that in the services screen the user can view the total number of accident
+1-open the saaed app 2-services screen in the bottom
+The user can view the total number of accident
+
+TC_157 Verify that the user can show the TCN number in the services screen
+1-open the saaed app 2-services screen in the bottom
+The user can view the TCN for the login account
+
+TC_158 Verify that the user can show the total number of road assistance requests
+1-open the saaed app 2-services screen in the bottom
+The user can view the total number of request road assistance
+
+TC_159 Verify that the user can show the total number of claims requests
+1-open the saaed app 2-services screen in the bottom
+The user can view the total number of request claims
+
+TC_160 Verify that the user can report an accident via services page
+1-open the saaed app 2-services screen in the bottom 3-click on report an accident
+The user can report an accident normally
+
+TC_161 Verify that the user can track saaed patrol via services page
+1-open the saaed app 2-services screen in the bottom 3-click on track saaed patrol
+The user can track saaed patrol normally
+
+TC_162 Verify that the user can view his requests via my request from services
+1-open the saaed app 2-services screen in the bottom 3-click on my requests
+The user can view his requests successfully with two option (Active - closed)
+
+TC_163 Verify that the user can view the request with the details in my request page
+1-open the saaed app 2-services screen in the bottom 3-click on my requests 4-click on the details page for any request
+The user can view the details page for the request successfully
+
+TC_164 Verify that the user can navigate to e-services via services screen
+1-open the saaed app 2-services screen in the bottom 3-click on e-services
+The user can navigate to the e-services successfully
+
+TC_165 Verify that the user can search for a report via report inquiry in services page
+1-open the saaed app 2-services screen in the bottom 3-click on report inquiry
+The user can search for a report and appear a matched result
+
+TC_166 Verify that the user can view the accidents
+1-open the saaed app 2-services screen in the bottom 3-click on accident
+The user can view all accident and can search with any number of reports
+
+TC_167 Verify that the user can request a road assistance
+1-open the saaed app 2-services screen in the bottom 3-click on road assistance
+The user can request a road assistance from my services correctly
+
+TC_168 Verify that the user can request a claim management
+1-open the saaed app 2-services screen in the bottom 3-click on claim management
+The user can request a claim management
+
+TC_169 Verify that the user can contact the saaed customer services via contact us
+1-open the saaed app 2-open the contact us page 3-click on contact us or "تواصل معنا" with chat
+The user can contact the saaed customer services
+
+TC_170 Verify that the user contact the saaed customer services via call
+1-open the saaed app 2-open the contact us page 3-click on call the number
+The user can call the customer services for saaed
+
+TC_171 Verify that the user can view the saaed web site via link in contact us
+1-open the saaed app 2-open the contact us page 3-click on the website
+The user can show the main web site for saaed app via link successfully
+
+TC_172 Verify that the user can view location for the main office in uae
+1-open the saaed app 2-open the contact us page 3-click on location for main office
+The user can view the location for the main office successfully
+
+TC_173 Verify that the user can show the account for saaed in instagram
+1-open the saaed app 2-open the contact us page 3-click on logo for the instagram
+The user can view the account for the saaed in instagram
+
+TC_174 Verify that the user can show the account for saaed in facebook
+1-open the saaed app 2-open the contact us page 3-click on logo for the facebook
+The user can view the account for the saaed in facebook
+
+TC_175 Verify that the user can show the account for saaed in x
+1-open the saaed app 2-open the contact us page 3-click on logo for the x
+The user can view the account for the saaed in x
+
+TC_176 Verify that the user can show the account for saaed in youtube
+1-open the saaed app 2-open the contact us page 3-click on logo for the youtube
+The user can view the account for the saaed in youtube
+
+TC_177 Verify that the user can show the account for saaed in linkedin
+1-open the saaed app 2-open the contact us page 3-click on logo for the linkedin
+The user can view the account for the saaed in linkedin
+
+TC_178 Verify that the user can create a report traffic accident through the Mobile App
+1-Open Saaed APP
+2-Click on Report Traffic Accident
+3-Fill all the mandatory data
+The new Accident has been created successfully
